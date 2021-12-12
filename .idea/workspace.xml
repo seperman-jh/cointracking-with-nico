@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2c867f0-5341-4043-b2fd-adc6299a33d5" name="Changes" comment="">
+    <list default="true" id="f2c867f0-5341-4043-b2fd-adc6299a33d5" name="Changes" comment="Changes1">
+      <change afterPath="$PROJECT_DIR$/src/Router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Coin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Coins.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,12 +47,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\seper\PhpstormProjects\cointracking-with-nico\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\seper\PhpstormProjects\cointracking-with-nico\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seper\PhpstormProjects\cointracking-with-nico" />
       <recent name="C:\Users\seper\PhpstormProjects" />
@@ -56,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639168212747</updated>
       <workItem from="1639168216051" duration="802000" />
-      <workItem from="1639272069663" duration="627000" />
+      <workItem from="1639272069663" duration="2997000" />
+      <workItem from="1639291121750" duration="1559000" />
     </task>
     <task id="LOCAL-00001" summary="set up1">
       <created>1639168905868</created>
@@ -65,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639168905868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes1">
+      <created>1639272717869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639272717869</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,24 +103,37 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="set up1" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up1" />
+    <MESSAGE value="Changes1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1865" height="266" key="GridCell.Tab.0.bottom" timestamp="1639272641338">
+    <state x="429" y="1" key="CommitChangelistDialog2" timestamp="1639272716928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639272641338" />
-    <state width="1865" height="266" key="GridCell.Tab.0.center" timestamp="1639272641338">
+    <state x="429" y="1" key="CommitChangelistDialog2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639272716928" />
+    <state width="1865" height="266" key="GridCell.Tab.0.bottom" timestamp="1639291089445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639272641338" />
-    <state width="1865" height="266" key="GridCell.Tab.0.left" timestamp="1639272641338">
+    <state width="1865" height="266" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089445" />
+    <state width="1865" height="266" key="GridCell.Tab.0.center" timestamp="1639291089445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639272641338" />
-    <state width="1865" height="266" key="GridCell.Tab.0.right" timestamp="1639272641338">
+    <state width="1865" height="266" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089445" />
+    <state width="1865" height="266" key="GridCell.Tab.0.left" timestamp="1639291089444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639272641338" />
+    <state width="1865" height="266" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089444" />
+    <state width="1865" height="266" key="GridCell.Tab.0.right" timestamp="1639291089445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="266" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089445" />
+    <state x="452" y="170" key="Vcs.Push.Dialog.v2" timestamp="1639272721638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="170" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639272721638" />
+    <state x="532" y="237" key="run.anything.popup" timestamp="1639290785589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="237" key="run.anything.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639290785589" />
   </component>
 </project>
