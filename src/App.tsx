@@ -38,10 +38,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: ${props => props.theme.bgColor};
     color : ${props => props.theme.textColor};
-    FONT-SIZE:55PX;
 }
 A {
     TEXT-DECORATION:NONE;
+    color:inherit;
 }
 OL, UL {
     LIST-STYLE: NONE;

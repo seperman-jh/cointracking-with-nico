@@ -2,9 +2,9 @@ import { DefaultTheme } from "styled-components"; // 기본 Theme Interface, sty
 
 
 export const theme: DefaultTheme = {
-    bgColor: "#ECF0F1",
-    textColor: "#00AFF0",
-    accentColor: "#E67E22",
+    bgColor: "#34495E",
+    textColor: "#0061FF",
+    accentColor: "#3AAF85",
 };
 
 /*
