@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639563515530</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Coin Tracking #5-1 (Link to + state, useLocation) + 주석추가2">
+      <created>1639563696314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639563696314</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +203,7 @@
     <MESSAGE value="Coin Tracking #3 (Main Page Layout &amp; Styled First)" />
     <MESSAGE value="Coin Tracking #4 (Fetch, Hooks(useEffect), Loading)" />
     <MESSAGE value="Coin Tracking #5-1 (Link to + state, useLocation) + 주석추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coin Tracking #5-1 (Link to + state, useLocation) + 주석추가" />
+    <MESSAGE value="Coin Tracking #5-1 (Link to + state, useLocation) + 주석추가2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coin Tracking #5-1 (Link to + state, useLocation) + 주석추가2" />
   </component>
 </project>

@@ -2,6 +2,10 @@ import styled from "styled-components";
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
+/*추후, 
+- Styled Component는 한곳에 몰아 넣기
+- 디자이너와 협업할때 Migration 어떻게 할지.. 고민
+*/
 const Container = styled.div`
     padding: 0px 20px;
     width:480px;
@@ -55,13 +59,6 @@ const Loading = styled.span`
   text-align:center;
 `
 
-
-/*
-1) interface 만들기
-2) fetch
-3) usestate
-4) useeffect
-* */
 
 interface CoinInterface {
     id: string;
