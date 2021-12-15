@@ -101,7 +101,7 @@ function Coins() {
                 <Coinslist>
                     {coins.map((coin) => (
                         <Coin key={coin.id}>
-                            <Link to={{pathname:`/${coin.id}`}} state={{name: coin.name}}>
+                            <Link to={{pathname:`/${coin.id}`}} state={{name: coin.name}}> // 6.0부터 to, state 분리됨
                                 <CoinImage src={`https://cryptoicon-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}`} />
                                 {coin.name} &rarr;
                             </Link>
