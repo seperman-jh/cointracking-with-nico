@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,11 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c867f0-5341-4043-b2fd-adc6299a33d5" name="Changes" comment="Coin Tracking #2">
+    <list default="true" id="f2c867f0-5341-4043-b2fd-adc6299a33d5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Coins.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Coins.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,8 @@
       <workItem from="1639291121750" duration="1600000" />
       <workItem from="1639458260516" duration="6395000" />
       <workItem from="1639471446098" duration="93000" />
-      <workItem from="1639471876346" duration="244000" />
+      <workItem from="1639471876346" duration="378000" />
+      <workItem from="1639542509096" duration="3666000" />
     </task>
     <task id="LOCAL-00001" summary="set up1">
       <created>1639168905868</created>
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639468526474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Coin Tracking #3 (Main Page Layout &amp; Styled First)">
+      <created>1639472226623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639472226623</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,42 +177,7 @@
     <MESSAGE value="Changes1" />
     <MESSAGE value="Coin Tracking #1" />
     <MESSAGE value="Coin Tracking #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coin Tracking #2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1283" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1639471454799">
-      <screen x="-1920" y="6" width="1920" height="1040" />
-    </state>
-    <state x="-1283" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1639471454799" />
-    <state x="-1491" y="7" key="CommitChangelistDialog2" timestamp="1639468525605">
-      <screen x="-1920" y="6" width="1920" height="1040" />
-    </state>
-    <state x="429" y="1" key="CommitChangelistDialog2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639292791600" />
-    <state x="-1491" y="7" key="CommitChangelistDialog2/0.0.1920.1040/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1639468525605" />
-    <state width="1865" height="266" key="GridCell.Tab.0.bottom" timestamp="1639291089445">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089445" />
-    <state width="1865" height="266" key="GridCell.Tab.0.center" timestamp="1639291089445">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089445" />
-    <state width="1865" height="266" key="GridCell.Tab.0.left" timestamp="1639291089444">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089444" />
-    <state width="1865" height="266" key="GridCell.Tab.0.right" timestamp="1639291089445">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="266" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639291089445" />
-    <state x="-1468" y="176" key="Vcs.Push.Dialog.v2" timestamp="1639468527950">
-      <screen x="-1920" y="6" width="1920" height="1040" />
-    </state>
-    <state x="452" y="170" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639292795741" />
-    <state x="-1468" y="176" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.6.1920.1040@-1920.6.1920.1040" timestamp="1639468527950" />
-    <state x="532" y="237" key="run.anything.popup" timestamp="1639290785589">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="532" y="237" key="run.anything.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1639290785589" />
+    <MESSAGE value="Coin Tracking #3 (Main Page Layout &amp; Styled First)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coin Tracking #3 (Main Page Layout &amp; Styled First)" />
   </component>
 </project>
