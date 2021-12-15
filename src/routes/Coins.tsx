@@ -24,6 +24,13 @@ const Coinslist = styled.ul`
     
 `;
 
+const CoinImage = styled.img`
+    width:35px;
+    height:35px;
+    margin-right:10px;
+`;
+
+
 const Coin      = styled.li`
     background-color: white;
     color: ${(props) => props.theme.textColor};
@@ -33,7 +40,8 @@ const Coin      = styled.li`
     font-size:20px;
     a {
       transition : color 0.2s ease-in;
-      display:block;
+      display:flex;
+      align-items:center;
     }
     &:hover{
       a {
@@ -56,15 +64,14 @@ const Loading = styled.span`
 * */
 
 interface CoinInterface {
-    "id": string
-    "name": string
-    "symbol": string
-    "rank": number
-    "is_new": boolean
-    "is_active": boolean
-    "type": string
+    id: string;
+    name: string;
+    symbol: string;
+    rank: number;
+    is_new: boolean;
+    is_active: boolean;
+    type: string;
 }
-
 
 function Coins() {
 
@@ -94,7 +101,8 @@ function Coins() {
                 <Coinslist>
                     {coins.map((coin) => (
                         <Coin key={coin.id}>
-                            <Link to={`/${coin.id}`}>
+                            <Link to={{pathname:`/${coin.id}`}} state={{name: coin.name}}>
+                                <CoinImage src={`https://cryptoicon-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}`} />
                                 {coin.name} &rarr;
                             </Link>
                         </Coin>

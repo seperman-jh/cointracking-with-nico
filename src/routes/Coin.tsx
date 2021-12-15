@@ -1,11 +1,7 @@
-import { useParams } from "react-router";
-
-interface RouteParams {
-    coinId: string;
-}
+import {useLocation} from "react-router-dom";
 
 function Coin() {
-    const { coinId } = useParams<RouteParams>();
-    return <h1>Coin: {coinId}</h1>;
+    const {state}  = useLocation()
+    return <h1>{state?.name}</h1>;
 }
 export default Coin;
