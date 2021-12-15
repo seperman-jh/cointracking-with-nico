@@ -78,7 +78,7 @@ function Coins() {
     const [coins, setCoins] = useState<CoinInterface[]>([]);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
+    useEffect(() => { // 어떤 값이 변화를 감지하면 실행됨. 아직 완벽히 이해를 못함.
         (async() => {
             const response = await fetch("https://api.coinpaprika.com/v1/coins");
             const json = await response.json();
